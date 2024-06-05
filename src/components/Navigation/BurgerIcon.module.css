@@ -1,0 +1,28 @@
+.burger {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.burger-icon {
+    position: relative;
+    height: 4px;
+    width: 30px;
+    background-color: var(--grayish-violet);
+}
+
+.burger-icon::before, .burger-icon::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: var(--grayish-violet);
+}
+
+.burger-icon::before {
+    top: 11px;
+}
+
+.burger-icon::after {
+    top: 22px;
+}
