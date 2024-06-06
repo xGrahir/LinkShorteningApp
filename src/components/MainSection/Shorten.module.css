@@ -11,7 +11,7 @@
 .bg-image {
     background-image: url('../../assets/images/bg-shorten-mobile.svg');
     background-repeat: no-repeat;
-    background-size: 65%;
+    background-size: 70%;
     background-position: right top;
 }
 
@@ -29,9 +29,8 @@
     padding: 0.9rem;
     border: none;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1rem;
-    
 }
 
 .form input::placeholder {
