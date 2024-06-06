@@ -1,0 +1,25 @@
+.section-background {
+    background-color: var(--dark-violet);
+    color: white;
+    text-align: center;
+}
+
+.bg-image {
+    background-image: url('../../assets/images/bg-boost-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    padding: 5rem 0;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: 1rem 3rem;
+}

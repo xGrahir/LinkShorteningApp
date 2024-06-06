@@ -1,0 +1,29 @@
+.section-background {
+    background-color: var(--very-dark-violet);
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.logo {
+    margin-bottom: 1rem;
+    background-image: url('../../assets/images/logo-footer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 33px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+

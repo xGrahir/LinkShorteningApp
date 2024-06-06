@@ -2,6 +2,7 @@ import styles from './MainSection.module.css'
 import { Shorten } from './Shorten'
 import { HeadText } from '../helpers/HeadText'
 import { About } from './About'
+import { BoostSection } from './BoostSection'
 
 export const MainSection = () => {
 	return (
@@ -16,6 +17,7 @@ export const MainSection = () => {
 					tag={'h2'}></HeadText>
 				<About />
 			</div>
+			<BoostSection />
 		</div>
 	)
 }

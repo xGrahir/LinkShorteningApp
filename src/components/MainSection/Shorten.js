@@ -4,7 +4,8 @@ import { Button } from '../../utils/Button'
 export const Shorten = () => {
 	const submitHandler = e => {
 		e.preventDefault()
-		console.log('xd')
+
+        //SHORTS LINKS
 	}
 
 	return (
