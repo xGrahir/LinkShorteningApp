@@ -1,0 +1,43 @@
+.form-background {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-60%);
+    width: 100%;
+    border-radius:10px;
+    background-color: var(--dark-violet);
+    overflow: hidden;
+}
+
+.bg-image {
+    background-image: url('../../assets/images/bg-shorten-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right top;
+}
+
+.form-wrap {
+    padding: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+
+.form input::placeholder {
+    color: var(--grayish-violet)
+}
+
+.button {
+    border-radius: 5px;
+}

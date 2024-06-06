@@ -1,0 +1,65 @@
+.field {
+	position: relative;
+	background: white;
+	border-radius: 5px;
+}
+
+.field-text {
+	margin-top: 3rem;
+	padding: 1.5rem;
+}
+
+.paragraph {
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+.icon-container {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	right: 0;
+	left: 0;
+}
+
+.icon-background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+	height: 90px;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	background-color: var(--dark-violet);
+}
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 40px;
+	height: 40px;
+}
+
+.recognition {
+	background-image: url('../../assets/images/icon-brand-recognition.svg');
+}
+
+.records {
+    background-image: url('../../assets/images/icon-detailed-records.svg');
+}
+
+.customizable {
+    background-image: url('../../assets/images/icon-fully-customizable.svg');
+}
+
+.bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    height: 100px;
+    width: 10px;
+    background-color: var(--cyan);
+}
+

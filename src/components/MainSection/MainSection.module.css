@@ -1,0 +1,21 @@
+.section-background {
+	background-color: hsl(0, 8%, 95%);
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+	padding: 20px;
+}
+
+.text {
+	margin-top: 0;
+}
+
+.paragraph {
+	font-size: 1rem;
+}

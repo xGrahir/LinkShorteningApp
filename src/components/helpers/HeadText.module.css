@@ -1,0 +1,29 @@
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: var(--very-dark-blue);
+}
+
+.about {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: var(--grayish-violet);
+}
+
+.h2 {
+    font-size: 1.7rem;
+}
+
+.h3 {
+    font-size: 1.5rem;
+}
