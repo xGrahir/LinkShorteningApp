@@ -5,19 +5,19 @@ export const Shorten = () => {
 	const submitHandler = e => {
 		e.preventDefault()
 
-        //SHORTS LINKS
+		//SHORTS LINKS
 	}
 
 	return (
-		<div className={styles['form-background']}>
-			<div className={styles['bg-image']}>
-				<div className={styles['form-wrap']}>
-					<form action='' onSubmit={submitHandler} className={styles.form}>
-						<input type='url' placeholder='Shorten a link here...' />
-						<Button styles={styles.button}>Shorten It!</Button>
-					</form>
+			<div className={styles['form-background']}>
+				<div className={styles['bg-image']}>
+					<div className={styles['form-wrap']}>
+						<form action='' onSubmit={submitHandler} className={styles.form}>
+							<input type='url' placeholder='Shorten a link here...' />
+							<Button styles={styles.button}>Shorten It!</Button>
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
 	)
 }
