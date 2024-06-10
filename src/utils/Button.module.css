@@ -1,14 +1,20 @@
 .button {
-    padding: 15px 20px;
-    border: none;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    background-color: var(--cyan);
-    font-size: 1.2rem;
-    cursor: pointer;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: var(--cyan);
+	font-size: 1.2rem;
+	cursor: pointer;
 }
 
 .button:hover {
-    background-color: hsl(180, 84%, 43%);
+	background-color: hsl(180, 81%, 41%);
+}
+
+@media (min-width: 576px) {
+	.button {
+		font-size: 1.3rem;
+	}
 }

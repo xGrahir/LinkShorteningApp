@@ -24,7 +24,7 @@ export const MobileNav = ({ active, closeNav, links }) => {
 				<ul className={styles.list}>
 					<li><a onClick={abortNavHandler} className={styles.link} href='#Login'>Login</a></li>
 				</ul>
-				<Button styles={styles.button}>Sing Up</Button>
+				<Button styles={styles.button}>Sign Up</Button>
 			</div>
 		</nav>,
 		navContainer

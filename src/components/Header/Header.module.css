@@ -1,20 +1,55 @@
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     margin-bottom: 10rem;
-    overflow-x: hidden;
     padding: 0 20px;
+    overflow-x: hidden;
 }
 
 .image {
     background-image: url('../../assets/images/illustration-working.svg');
     width: 733px;
     height: 340px;
-    background-size: 70%;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .button {
-    width: 55%;
+    width: 200px;
+}
+
+.h1 {
+    font-size: 2.2rem;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+}
+
+@media(min-width:576px) {
+    .image {
+        background-size: 80%;
+        height: 430px;
+        width: 860px;
+        background-position: 3rem 0;
+    }
+
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .image {
+        background-size: 85%;
+        height: 490px;
+        background-position: 8rem 0;
+    }
+
 }

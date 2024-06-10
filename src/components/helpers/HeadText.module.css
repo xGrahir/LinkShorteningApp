@@ -9,7 +9,6 @@
 
 .title {
     margin-bottom: 1rem;
-    font-size: 2.2rem;
     line-height: 2.5rem;
     color: var(--very-dark-blue);
 }
@@ -20,10 +19,3 @@
     color: var(--grayish-violet);
 }
 
-.h2 {
-    font-size: 1.7rem;
-}
-
-.h3 {
-    font-size: 1.5rem;
-}

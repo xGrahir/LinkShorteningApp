@@ -26,3 +26,9 @@
 .burger-icon::after {
     top: 22px;
 }
+
+@media(min-width: 992px) {
+    .burger {
+        display: none;
+    }
+}

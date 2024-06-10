@@ -10,19 +10,20 @@ export const Field = props => {
 						<div className={`${styles[props.icon]} ${styles.icon}`}></div>
 					</div>
 				</div>
-				<div>
-					<HeadText
-						tag={'h3'}
-						title={props.title}
-						about={props.about}
-						styles={styles['field-text']}
-						pstyles={styles.paragraph}
-					/>
-				</div>
+				<HeadText
+					tag={'h3'}
+					h3styles={styles.h3}
+					title={props.title}
+					about={props.about}
+					styles={styles['field-text']}
+					pstyles={styles.paragraph}
+				/>
 			</div>
-			{props.icon !== 'customizable' && <div className={styles['bar-container']}>
-				<div className={styles.bar}></div>
-			</div> }
+			{props.icon !== 'customizable' && (
+				<div className={styles['bar-container']}>
+					<div className={styles.bar}></div>
+				</div>
+			)}
 		</>
 	)
 }
