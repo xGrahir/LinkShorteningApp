@@ -17,8 +17,8 @@ export const MainSection = () => {
 						title={'Advanced Statistics'}
 						about={'Track how your links are performing across the web with our advanced statistics dashboard.'}
 						tag={'h2'}></HeadText>
-					<About />
 				</Wrapper>
+				<About />
 			</div>
 		</section>
 	)

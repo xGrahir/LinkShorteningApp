@@ -4,7 +4,7 @@ import { HeadText } from './HeadText'
 export const Field = props => {
 	return (
 		<>
-			<div className={styles.field}>
+			<div className={`${styles.field} ${styles[props.id]}`}>
 				<div className={styles['icon-container']}>
 					<div className={`${styles['icon-background']}`}>
 						<div className={`${styles[props.icon]} ${styles.icon}`}></div>

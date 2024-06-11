@@ -3,6 +3,7 @@
 	background: white;
 	border-radius: 5px;
 	transition: transform 0.3s, box-shadow 0.3s;
+
 }
 
 .field:hover {
@@ -12,7 +13,7 @@
 
 .field-text {
 	margin-top: 3rem;
-	padding: 1.5rem;
+	padding: 1.5rem 2.3rem;
 }
 
 .paragraph {
@@ -70,16 +71,39 @@
 }
 
 .h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
-@media (min-width: 576px) {
-	.h3 {
-		font-size: 1.7rem;
+
+@media (min-width: 1200px) {
+	.icon-container {
+		justify-content: flex-start;
+		margin-left: 2rem;
 	}
 
-	.paragraph {
-		font-size: 1.1rem;
+	.field-text {
+		text-align: left;
+	}
+
+	.bar-container {
+		align-items: center;
+	}
+
+	.bar {
+		height: 10px;
+		width: 30px;
+	}
+
+	.brand {
+		transform: translateY(-2rem);
+	}
+
+	.detailed {
+		transform: translateY(1rem);
+	}
+
+	.fully {
+		transform: translateY(4rem);
 	}
 }
 

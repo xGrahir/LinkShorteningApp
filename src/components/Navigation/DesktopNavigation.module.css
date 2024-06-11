@@ -16,7 +16,7 @@
     text-decoration: none;
     color: var(--grayish-violet);
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@
 .button {
     margin-top: -0.3rem;
     margin-left: 2rem;
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 0.9rem;
 }
 

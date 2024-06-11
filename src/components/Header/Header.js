@@ -6,7 +6,9 @@ import { Wrapper } from '../../utils/Wrapper'
 export const Header = () => {
 	return (
 		<header className={styles.header}>
-			<div className={styles.image}></div>
+			<div className={styles.img}>
+				<div className={styles.image}></div>
+			</div>
 			<Wrapper styles={styles.wrapper}>
 				<div className={styles.container}>
 					<div className={styles['text-container']}>

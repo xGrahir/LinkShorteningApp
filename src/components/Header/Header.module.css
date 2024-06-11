@@ -52,7 +52,7 @@
 
 @media (min-width: 768px) {
     .image {
-        background-size: 85%;
+        background-size: 80%;
         height: 490px;
         background-position: 8rem 0;
     }
@@ -61,7 +61,6 @@
 @media (min-width: 992px) {
     .header {
         flex-direction: row;
-        margin-top: 2rem;
         margin-bottom: 8rem;
     }
 
@@ -77,18 +76,17 @@
         flex-direction: column;
     }
 
-
     .image {
         position: absolute;
-        right: -17rem;
+        right: -12rem;
         order: 1;
-        background-size: 80%;
-        background-position: 0 0;
+        background-size: contain;
+        background-position: 10rem 0;
     }
 
     .h1 {
-        font-size: 4rem;
-        line-height: 4rem !important; 
+        font-size: 4.5rem;
+        line-height: 4.5rem !important; 
     }
 
     .text {
@@ -109,6 +107,20 @@
     }
 
     .half {
-        width: calc(2500px/2);
+        width: calc(2000px/2);
+    }
+}
+
+@media (min-width: 1200px) {
+   .image {
+    right: -15rem;
+    background-position: 0 0;
+   }
+}
+
+@media (min-width: 1400px) {
+    .image {
+        right: -5rem;
+        background-size: contain;
     }
 }
