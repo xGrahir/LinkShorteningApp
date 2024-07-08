@@ -24,6 +24,12 @@
 	font-size: 1.7rem;
 }
 
+.links {
+	margin-top: -4rem;
+	margin-bottom: 4rem;
+	list-style: none;
+}
+
 @media (min-width: 576px) {
 	.h2 {
 		font-size: 2rem;

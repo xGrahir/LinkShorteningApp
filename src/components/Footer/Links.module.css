@@ -32,3 +32,10 @@
 .normal-links a:hover {
     color: white;
 }
+
+@media (min-width: 1200px) {
+    .links {
+        text-align: left;
+        margin-right: 4rem;
+    }
+}

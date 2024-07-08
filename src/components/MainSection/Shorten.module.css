@@ -1,4 +1,5 @@
 .form-background {
+    position: relative;
     display: flex;
     flex-direction: column;
     transform: translateY(-60%);
@@ -33,12 +34,35 @@
     font-size: 1rem;
 }
 
+.form-err input {
+    border: 2px solid var(--red);
+}
+
+.form-err input:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--red);
+}
+
 .form input::placeholder {
     color: var(--grayish-violet)
 }
 
+
+.form-err input::placeholder {
+    color: hsla(0, 87%, 67%, 0.436);
+}
+
+
 .button {
     border-radius: 5px;
+}
+
+.error-container {
+    display: flex;
+    margin-top: -0.8rem;
+    margin-bottom: 0.2rem;
+    color: hsla(0, 87%, 67%, 0.819);
+    font-size: 0.8rem;
 }
 
 @media (min-width: 576px) {
@@ -81,5 +105,11 @@
         padding-right: 10px;
         width: 20%;
         font-size: 1.15rem;
+    }
+
+    .error-container {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
     }
 }

@@ -46,7 +46,7 @@
     }
 
     .paragraph {
-        font-size: 1.4rem;
+        font-size: 1.1rem !important;
     }
 }
 
@@ -85,7 +85,7 @@
     }
 
     .h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         line-height: 4.5rem !important; 
     }
 
@@ -112,6 +112,10 @@
 }
 
 @media (min-width: 1200px) {
+    .h1 {
+        font-size: 4.5rem;
+    }
+
    .image {
     right: -15rem;
     background-position: 0 0;
@@ -120,7 +124,7 @@
 
 @media (min-width: 1400px) {
     .image {
-        right: -5rem;
+        right: -10rem;
         background-size: contain;
     }
 }

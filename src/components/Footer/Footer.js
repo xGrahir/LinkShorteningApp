@@ -1,3 +1,4 @@
+import { Wrapper } from '../../utils/Wrapper'
 import styles from './Footer.module.css'
 import { Links } from './Links'
 import { Socials } from './Socials'
@@ -16,11 +17,17 @@ export const Footer = () => {
 
 	return (
 		<div className={styles['section-background']}>
-			<div className={styles.wrapper}>
-				<div className={styles.logo}></div>
-				{links}
-				<div className={styles.socials}> {socials}</div>
-			</div>
+			<Wrapper styles={styles.wrapper}>
+				<div className={styles.container}>
+					<div className={styles['logo-container']}>
+						<div className={styles.logo}></div>
+					</div>
+					<div className={styles['links-container']}>
+						<div className={styles.links}>{links}</div>
+						<div className={`${styles.links} ${styles.socials}`}>{socials}</div>
+					</div>
+				</div>
+			</Wrapper>
 		</div>
 	)
 }
